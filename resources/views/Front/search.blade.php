@@ -67,7 +67,7 @@
         <!-- Bagian ini akan tampil jika hasil pencarian kosong (articles->isEmpty()) -->
         @if ($articles->isEmpty())
         <section id="trending-articles" class="max-w-[1130px] mx-auto flex items-start flex-col gap-[30px] mt-[70px] px-4">
-            <h2 class="text-[26px] leading-[39px] font-bold text-[#1560bd]">Artikel Trending Hari Ini</h2>
+            <h2 class="text-[26px] leading-[39px] font-bold text-[#FF69B4]">Artikel Trending Hari Ini</h2>
             
             <p class="text-gray-500 -mt-5">Tidak ada artikel yang cocok dengan kata kunci "{{ ucfirst($keyword) }}". Berikut adalah rekomendasi artikel terpopuler:</p>
 
